@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Traverse</title>
+    <style>
+        * {
+            border: 2px solid lightsteelblue;
+            padding: 15px;
+            margin: 15px;
+        }
+
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            max-width: 600px;
+            font-family: sans-serif;
+            color: dimgrey;
+        }
+
+        li {
+            color: dimgrey;
+        }
+    </style>
+</head>
+<body>
+<ul id="shape" onclick="selectShape(event)">Shape Parent
+    <li id="square" data-clicked="false">Square</li>
+    <li id="circle" data-clicked="false">Circle</li>
+    <li id="triangle" data-clicked="false">Triangle</li>
+</ul>
+<input id="newChild" type="text" placeholder="Add new Shape"/>
+<input type="button" value="Append" onclick="appendNewChild()" style="background: lightsteelblue"/>
+<input type="button" value="Delete" onclick="deleteShape()" style="background: lightsteelblue"/><br/>
+<input id="replaceChild" type="text" placeholder="New Shape"/>
+<input type="button" value="Replace" onclick="changeShape()" style="background: lightsteelblue"/>
+</body>
+<script src="index.js"></script>
+</html>
