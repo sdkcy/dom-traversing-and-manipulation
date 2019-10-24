@@ -1,11 +1,15 @@
 {
   "name": "dom-traversing-and-manipulation",
   "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "DOM traversing, manipulation, using DocumentFragment for increase performance",
+  "keywords": [
+    "documentFragment",
+    "dom traverse",
+    "dom manipulation"
+  ],
+  "author": {
+    "name": "Sıdıka Çay",
+    "email": "sidikacay@yahoo.com"
   },
-  "keywords": [],
-  "author": "sdk_cy",
   "license": "ISC"
 }

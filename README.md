@@ -4,7 +4,14 @@ It is an example for traversing and manipulation on DOM. Also, it is include spe
 
 ## Usage
 
-If you want to see the result of performance, you need to open your browser with these args;
+If you want to see the result of performance how DocumentFragment affects critical rendering path and memory usage, you need to open your browser with these args;
 ```bash
 --enable-precise-memory-info
 ```
+Run `documentFragment.html` to inspect wrapping with DocumentFragment or
+
+Run `parentNode.html` to inspect classic wrapping with a parent node
+
+
+## Author
+**Sıdıka Türkan Akkoyun Çay** - [sidikacay@yahoo.com](mailto:sidikacay@yahoo.com)
